@@ -1,0 +1,10 @@
+package step03;
+
+public class ex08 {
+
+	public static void main(String[] args) {
+		
+		//A+B - 8
+		
+	}
+}

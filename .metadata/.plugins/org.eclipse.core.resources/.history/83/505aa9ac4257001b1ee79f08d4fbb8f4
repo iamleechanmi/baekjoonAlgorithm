@@ -1,0 +1,15 @@
+package step03;
+
+public class ex05 {
+
+	public static void main(String[] args) {
+		
+		//N 찍기
+		Scanner scan = new Scanner(System.in);
+
+		int number = scan.nextInt();
+
+		for (int i=1; i<=number; i++){
+			System.out.println(i);
+		}
+	}

@@ -1,0 +1,10 @@
+package step03;
+
+public class ex11 {
+
+	public static void main(String[] args) {
+		
+		//X보다 작은 수
+		
+	}
+}
