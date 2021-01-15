@@ -1,0 +1,13 @@
+package step01;
+
+public class ex03 {
+	
+	public static void main(String[] args) {
+		
+		//°í¾çÀÌ
+		System.out.println("\\    /\\");
+        System.out.println(" )  ( ')");
+        System.out.println("(  /  )");
+        System.out.println(" \\(__)|");
+	}
+}
