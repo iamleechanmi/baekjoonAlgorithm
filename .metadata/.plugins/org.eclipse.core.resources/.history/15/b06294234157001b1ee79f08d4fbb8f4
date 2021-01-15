@@ -6,7 +6,7 @@ public class ex01 {
 
 	public static void main(String[] args) {
 
-		//ë‘ ìˆ˜ ë¹„êµí•˜ê¸°
+		//µÎ ¼ö ºñ±³ÇÏ±â
 		Scanner sc = new Scanner(System.in);
 
 		int number1 = sc.nextInt();

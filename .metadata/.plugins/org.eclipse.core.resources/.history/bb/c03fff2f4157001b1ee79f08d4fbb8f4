@@ -6,7 +6,7 @@ public class ex05 {
 
 	public static void main(String[] args) {
 		
-		//ì•ŒëžŒ ì‹œê³„
+		//¾Ë¶÷ ½Ã°è
 		Scanner sc = new Scanner(System.in);
 
 		int hour = sc.nextInt();

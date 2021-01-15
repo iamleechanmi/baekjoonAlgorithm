@@ -6,7 +6,7 @@ public class ex04 {
 
 	public static void main(String[] args) {
 		
-		//ì‚¬ë¶„ë©´ ê³ ë¥´ê¸°
+		//»çºÐ¸é °í¸£±â
 		Scanner sc = new Scanner(System.in);
 
 		int x = sc.nextInt();

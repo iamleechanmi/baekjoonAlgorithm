@@ -6,7 +6,7 @@ public class ex03 {
 
 	public static void main(String[] args) {
 
-		//ìœ¤ë…„
+		//À±³â
 		Scanner sc = new Scanner(System.in);
 
 		int result = 0;
