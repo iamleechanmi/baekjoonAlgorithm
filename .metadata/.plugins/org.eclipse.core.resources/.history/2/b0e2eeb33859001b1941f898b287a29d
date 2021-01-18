@@ -1,0 +1,10 @@
+package step05;
+
+public class ex03 {
+
+	public static void main(String[] args) {
+		
+		//숫자의 개수
+		
+	}
+}

@@ -1,0 +1,29 @@
+package step05;
+
+import java.util.Scanner;
+
+public class ex03 {
+
+	public static void main(String[] args) {
+		
+		//숫자의 개수
+		Scanner sc = new Scanner(System.in);
+		int[] number = new int[3];
+		int multiple = 1;
+		
+		for (int i=0; i<3; i++) {
+			number[i] = sc.nextInt();
+			multiple = multiple * number[i];
+		}
+		sc.close();
+		
+		String temp = "" + multiple;
+		String[] result = new String[10];
+		for (int i=1; i<=9; i++) {
+			result[i] = "\"" + i + "\"";
+		}
+		for (int i=0; i<=temp.length(); i++) {
+			temp.charAt(i);
+		}
+	}
+}
