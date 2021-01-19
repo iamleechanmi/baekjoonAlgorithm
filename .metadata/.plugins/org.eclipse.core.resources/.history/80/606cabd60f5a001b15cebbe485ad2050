@@ -1,0 +1,10 @@
+package com.step15;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//동전 0
+		
+	}
+}

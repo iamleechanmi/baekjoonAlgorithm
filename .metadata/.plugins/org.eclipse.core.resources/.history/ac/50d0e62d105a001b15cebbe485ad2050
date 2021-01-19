@@ -1,0 +1,22 @@
+package com.step15;
+
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//동전 0
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int k = sc.nextInt();
+		
+		int[] ns = new int[n];
+		for (int i=0; i<n; i++) {
+			ns[i] = sc.nextInt();
+		}
+		
+		
+		
+	}
+}
