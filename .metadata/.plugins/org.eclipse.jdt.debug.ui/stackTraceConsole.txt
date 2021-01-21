@@ -1,0 +1,6 @@
+		int studentNum = sc.nextInt();
+		int[] score = new int[studentNum];
+		
+		for (int j=0; j<studentNum; j++) {
+			score[j] = sc.nextInt();
+		}
