@@ -1,0 +1,33 @@
+package com.step05;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Ex06 {
+	
+	public static void main(String[] args) {
+		
+		//OX퀴즈
+		Scanner sc = new Scanner(System.in);
+		int cnt = sc.nextInt();
+		String[] result = new String[cnt]; 
+		
+		for (int i=0; i<cnt; i++) {
+			result[i] = sc.nextLine();
+			
+			//점수 계산 메소드 호출
+			score(result[i]);
+		}
+		sc.close();
+	}
+
+	private static void score(String result) {
+		
+		int[] score = new int[result.length()];
+		
+		for (int i=result.length()-1; i>=0; i--) {
+			
+			System.out.print(result.indexOf("X", i) + " ");
+		}
+	}
+}
