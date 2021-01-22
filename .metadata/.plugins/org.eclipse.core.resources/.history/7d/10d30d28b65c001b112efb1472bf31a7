@@ -1,0 +1,9 @@
+package com.step16;
+
+public class Ex01 {
+	
+	public static void main(String[] args) {
+		
+		//배수와 약수
+	}
+}
