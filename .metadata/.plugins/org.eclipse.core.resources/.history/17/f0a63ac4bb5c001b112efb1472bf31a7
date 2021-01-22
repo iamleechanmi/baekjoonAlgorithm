@@ -1,0 +1,10 @@
+package com.step16;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+		//최대공약수와 최소공배수
+		
+	}
+}

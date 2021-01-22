@@ -1,0 +1,17 @@
+package com.step16;
+
+import java.util.Scanner;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+		//최대공약수와 최소공배수
+		Scanner sc = new Scanner(System.in);
+		int number1 = sc.nextInt();
+		int number2 = sc.nextInt();
+		sc.close();
+		
+		
+	}
+}

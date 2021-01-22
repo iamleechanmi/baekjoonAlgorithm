@@ -1,0 +1,9 @@
+package com.step16;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		//약수
+	}
+}
