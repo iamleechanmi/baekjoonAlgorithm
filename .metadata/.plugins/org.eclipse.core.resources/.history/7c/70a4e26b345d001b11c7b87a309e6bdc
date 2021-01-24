@@ -1,0 +1,16 @@
+package com.step07;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		//단어의 개수
+		Scanner sc = new Scanner(System.in);
+		String line = sc.nextLine();
+		sc.close();
+		
+		line.replace(" ", "");
+	}
+}

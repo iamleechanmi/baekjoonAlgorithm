@@ -1,9 +1,0 @@
-package step03;
-
-public class ex09 {
-
-	public static void main(String[] args) {
-		
-		//별 찍기 -1
-	}
-}
