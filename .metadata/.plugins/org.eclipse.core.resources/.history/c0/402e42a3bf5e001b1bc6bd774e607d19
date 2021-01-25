@@ -1,0 +1,12 @@
+package com.step12;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		//수 정렬하기2
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+}

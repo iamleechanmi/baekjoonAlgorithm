@@ -1,0 +1,38 @@
+package com.step12;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Ex02 {
+
+	public static void main(String[] args) throws IOException {
+		
+		//수 정렬하기2
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		long start = System.currentTimeMillis();
+		int cnt = Integer.parseInt(br.readLine());
+		
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		
+		for (int i=0; i<cnt; i++) {
+			arr.add(Integer.parseInt(br.readLine()));
+		}
+		br.close();
+		
+		Collections.sort(arr);
+		
+		for (int i=0; i<cnt; i++) {
+			bw.write(arr.get(i) + "\n");
+		}
+		long end = System.currentTimeMillis();
+		System.out.println("실행시간: " + (end-start)/1000.0);
+
+		bw.flush();
+		bw.close();
+	}
+}
