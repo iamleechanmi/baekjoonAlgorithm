@@ -1,0 +1,35 @@
+package com.step12;
+
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//수 정렬하기(Bubble sort)
+		Scanner sc = new Scanner(System.in);
+		int cnt = sc.nextInt();
+		int[] number = new int[cnt];
+		
+		for (int i=0; i<cnt; i++) {
+			number[i] = sc.nextInt();
+		}
+		
+		for (int i=cnt-1; i>0; i--) {
+			
+			for (int j=0; j<i; j++) {
+				
+				if (number[i] > number[i+1]) {
+					
+					int tmp = number[i];
+					number[i] = number[i+1];
+					number[i+1] = tmp;
+				}
+			}
+		}
+		
+		for (int i=0; i<number.length; i++) {
+			System.out.println(number[i]);
+		}
+	}
+}
