@@ -22,7 +22,7 @@ public class Ex03 {
 		
 		for (int i=0; i<number.length; i++) {
 			
-			for (int j=0; j<number[i]; j++) {
+			if (number[i] > 0) {
 				
 				sb.append(i+1).append("\n");
 			}
