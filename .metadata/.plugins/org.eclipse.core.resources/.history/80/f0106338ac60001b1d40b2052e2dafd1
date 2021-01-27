@@ -1,0 +1,17 @@
+package com.step12;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		//좌표 정렬하기
+		Scanner sc = new Scanner(System.in);
+		int cnt = sc.nextInt();
+		
+		int[][] number = new int[cnt][2];
+		
+		
+	}
+}

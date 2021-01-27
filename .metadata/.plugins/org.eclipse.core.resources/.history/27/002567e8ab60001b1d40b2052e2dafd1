@@ -1,0 +1,31 @@
+package com.step12;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Ex06 {
+
+	public static void main(String[] args) throws IOException {
+		
+		//좌표 정렬하기
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int cnt = Integer.parseInt(br.readLine());
+		
+		int[][] number = new int[cnt][2];
+		
+		for (int i=0; i<cnt; i++) {
+			number[i][0] = br.read()-48;
+			number[i][1] = br.read()-48;
+		}
+		
+		
+		for (int i=0; i<cnt; i++) {
+			System.out.println(number[i][0]);
+			System.out.println(number[i][1]);
+		}
+		
+		
+		
+	}
+}
