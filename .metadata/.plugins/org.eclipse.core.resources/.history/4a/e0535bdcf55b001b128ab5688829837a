@@ -1,9 +1,0 @@
-package com.step07;
-
-public class Ex02 {
-
-	public static void main(String[] args) {
-		
-		//숫자의 합
-	}
-}
