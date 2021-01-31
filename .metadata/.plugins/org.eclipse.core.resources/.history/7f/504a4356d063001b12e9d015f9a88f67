@@ -22,20 +22,18 @@ public class Ex01 {
 			if (command[0].contains("push")) {
 				stack.push(Integer.parseInt(command[1]));
 				
-			} else if (command[0].equals("pop")) {
+			} else if (command.equals("pop")) {
 				System.out.println(stack.isEmpty()? -1 : stack.pop());
 			
-			} else if (command[0].equals("size")) {
+			} else if (command.equals("size")) {
 				System.out.println(stack.size());
 			
-			} else if (command[0].equals("empty")) {
+			} else if (command.equals("empty")) {
 				System.out.println(stack.isEmpty()? 1 : 0);
 				
-			} else if (command[0].equals("top")) {
+			} else if (command.equals("top")) {
 				System.out.println(stack.isEmpty()? -1 : stack.peek());
 			}
 		}
-		
-		br.close();
 	}
 }
