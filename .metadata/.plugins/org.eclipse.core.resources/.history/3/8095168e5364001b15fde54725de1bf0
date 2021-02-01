@@ -1,0 +1,9 @@
+package com.step25;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		//두 수의 합
+	}
+}
