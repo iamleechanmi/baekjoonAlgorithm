@@ -1,0 +1,22 @@
+package com.step11;
+
+import java.util.Scanner;
+
+public class Ex01 {
+	
+	public static void main(String[] args) {
+		
+		//블랙잭
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int[] cards = new int[n];
+		
+		for (int i=0; i<n; i++) {
+			cards[i] = sc.nextInt();
+		}
+		
+		int result = 0;
+	}
+}
