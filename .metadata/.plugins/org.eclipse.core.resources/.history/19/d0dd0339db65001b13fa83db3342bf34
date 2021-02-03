@@ -1,0 +1,10 @@
+package com.step11;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		//분해합
+		
+	}
+}
